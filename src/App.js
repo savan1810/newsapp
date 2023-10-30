@@ -1,5 +1,5 @@
 
-import React, { useContext } from 'react'
+import React from 'react'
 import Navbar from './Components/Navbar'
 import News from './Components/News'
 import PropTypes from 'prop-types'
@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 // import Search from './Components/Search';
 

@@ -16,7 +16,7 @@ const NewsItem =(props)=> {
                 <h5 className="card-title">{title}....</h5>
                 <p className="card-text">{discription}...</p>
                 <p style={{marginTop:"2px",color:"gray"}}><small>By {author} on {new Date(date).toGMTString()}</small></p>
-                <a href={newsUrl} target="_blank" className="btn btn-dark">Read more</a>
+                <a href={newsUrl}  className="btn btn-dark">Read more</a>
             </div>
         </div>
       </div>
